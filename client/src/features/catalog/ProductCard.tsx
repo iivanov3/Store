@@ -1,6 +1,6 @@
 import { Avatar, Button, Card, CardActions, CardContent, CardHeader, CardMedia, Typography } from "@mui/material";
 import { Product } from "../../app/models/product";
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 interface Props {
     product: Product;
